@@ -1,0 +1,306 @@
+.dices {
+    display: grid;
+    gap: 60px;
+    width: 29%;
+    grid-template-columns: auto auto auto;
+}
+
+.dice1 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border: 5px solid palevioletred;
+    border-radius: 8px;
+    height: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+}
+.dice1 .dot1 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 50%;
+    height: 20px;
+}
+.dice2 {
+    border: 5px solid palevioletred;
+    border-radius: 8px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+    
+}
+.dice2 .dot1 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+}
+.dice2 .dot2 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.dice3 {
+    border: 5px solid palevioletred;
+    border-radius: 8px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+}
+.dice3 .dot1 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+}
+.dice3 .dot2 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.dice3 .dot3 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.dice4 {
+    border: 5px solid palevioletred;
+    border-radius: 8px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+}
+.dice4 .dot1 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+}
+.dice4 .dot2 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+    grid-column: 3/4;
+}
+.dice4 .dot3 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+    grid-row: 3/4;
+}
+.dice4 .dot4 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.dice5 {
+    border: 5px solid palevioletred;
+    border-radius: 8px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+}
+.dice5 .dot1 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+}
+.dice5 .dot2 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+    grid-column: 3/4;
+}
+.dice5 .dot3 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+    grid-row: 3/4;
+}
+.dice5 .dot4 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.dice5 .dot5 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.dice6 {
+    border: 5px solid palevioletred;
+    border-radius: 8px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+}
+.dice6 .dot1 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+}
+.dice6 .dot2 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+    grid-column: 3/4;
+}
+.dice6 .dot3 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+    grid-row: 3/4;
+}
+.dice6 .dot4 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.dice6 .dot5 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+   
+    grid-row: 2/3;
+}
+.dice6 .dot6 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid palevioletred;
+    background-color: rgb(248, 167, 180);
+    border-radius: 50% ;
+    width: 50%;
+    height: 20px;
+   grid-column: 3/4;
+    grid-row: 2/3;
+}
